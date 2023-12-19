@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destaque {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
+.produtos {
+    display: flex;
+}
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    background-color: green;
+    padding: 3vh;
+    border-radius: 10px;
+}
+
+.produto {
+    width: 40%;
+    height: auto;
+}
+
+.figureIMG {
+    display: flex;
+}
+
+.produtoSectio {
+    position: relative;
+    left: 30vh;
+}
+
+.login {
+    flex-direction: column;
+    align-items: center;
+}
+
+.collumLogin {
+    display: flex;
+    flex-direction: row;
+    padding: 4vh;
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .carrossel {
+        width: 80%;
+        height: auto;
+    }
+
+    .destaque {
+        flex-direction: row;
+        justify-content: center;
+        padding: 2vh;
+    }
+
+    .imgSection {
+        width: 30%;
+        height: auto;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .geral {
+        flex-direction: column;
+    }
+
+    .produtoSectio {
+        position: relative;
+        margin-right: 30vh;
+    }
+
+    .collumLogin {
+        flex-direction: column;
+    }
+}
